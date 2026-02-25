@@ -1,56 +1,58 @@
 /* Styles for Mobile devices */
 body {
-  min-width: 320px;
-  min-height: 100vh;
   overflow-x: hidden;
 
-  font-family: var(--primary-font);
-  font-size: var();
-  font-weight: var();
-  line-height: var();
-  color: var();
+  min-width: 320px;
+  min-height: 100vh;
 
-  background-color: var();
+  font-family: var(--primary-font);
+  font-size: var(--fs-h3);
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-main);
+  color: var(--clr-txt-main);
 
   /* Покращення відображення шрифтів */
   text-rendering: optimizeLegibility;
+
+  background-color: var(--clr-bg-light-main);
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .section {
-  padding-top: px;
-  padding-bottom: px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .container {
   max-width: 480px;
   margin: 0 auto;
-  padding-left: px;
-  padding-right: px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var();
-  line-height: var();
+h2 {
+  font-weight: var(--fw-bold);
+  line-height: var(--lh-h);
 }
 
 h1 {
-  font-size: var();
-  font-weight: var();
-  color: var();
+  font-size: var(--fs-hero);
+  color: var(--clr-txt-light);
 }
 
 h2 {
-  margin-bottom: px;
-  font-size: var();
-  font-weight: var();
+  font-size: var(--fs-h2);
   text-align: center;
+}
+
+.logo {
+  font-size: var(--fs-logo);
+  font-weight: var(--fw-regular);
+  line-height: var(--lh-logo);
+  color: var(--clr-txt-light);
 }
 
 li a {
@@ -64,40 +66,45 @@ li a {
 
 .visually-hidden {
   position: absolute;
+
+  overflow: hidden;
+
   width: 1px;
   height: 1px;
   margin: -1px;
-  border: 0;
   padding: 0;
+  border: 0;
+
   white-space: nowrap;
+
   clip-path: inset(100%);
+
   clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 @media (min-width: 768px) {
   .section {
-    padding-top: px;
-    padding-bottom: px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .container {
     max-width: 720px;
-    padding-left: px;
-    padding-right: px;
+    padding-right: 32px;
+    padding-left: 32px;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
 
   .section {
-    padding-top: px;
-    padding-bottom: px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .container {
-    max-width: 1158px;
-    padding-left: px;
-    padding-right: px;
+    max-width: 1280px;
+    padding-right: 16px;
+    padding-left: 16px;
   }
 }

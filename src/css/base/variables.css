@@ -66,6 +66,8 @@
     /* cta-modal text-modal*/
     --lh-h3: 1.43;
     /* text-main h3*/
+    --lh-h: 1.17;
+    /*h1 h2  */
     --lh-main: 1.71;
     /* card-prof app-modal*/
 
@@ -87,7 +89,6 @@
         --fs-h3: 16px;
         --lh-h3: 1.5;
         /* text-main h3*/
-        --lh-h2-modal: 1.17;
-        /* h2-modal */
+
     }
 }
