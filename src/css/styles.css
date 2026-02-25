@@ -18,7 +18,7 @@
 
 /* Sections styles */
 @import './sections/hero-section.css';
-@import './sections/features-section.css';
+@import './sections/features-sections.css';
 @import './sections/video-promo-section.css';
 @import './sections/team-section.css';
 @import './sections/reviews-section.css';

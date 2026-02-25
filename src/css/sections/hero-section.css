@@ -1,6 +1,6 @@
-.hero-section {
-    background-image: var(), url();
+/* .hero-section {
     background-color: var();
+    background-image: var(), url();
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -13,9 +13,9 @@
 }
 
 .hero-container {
-    text-align: center;
     min-height: px;
     padding-top: px;
+    text-align: center;
 }
 
 .hero-title {
@@ -28,12 +28,6 @@
         background-image: var(), url();
     }
 
-    @media (min-resolution: 192dpi) {
-        .hero-section {
-            background-image: var(), url();
-        }
-    }
-
     .hero-container {
         min-height: px;
         padding-top: px;
@@ -42,6 +36,12 @@
     .hero-title {
         margin-bottom: px;
     }
+
+    @media (min-resolution: 192dpi) {
+        .hero-section {
+            background-image: var(), url();
+        }
+    }
 }
 
-@media screen and (min-width: 1240px) {}
+@media screen and (min-width: 1240px) {} */

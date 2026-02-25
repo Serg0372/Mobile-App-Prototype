@@ -1,11 +1,11 @@
-.header {
+/* .header {
     padding: px;
 }
 
 .header-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 
 .nav-list {
@@ -17,9 +17,11 @@
 @media (min-width: 768px) {
     .nav {
         position: static;
+
         width: auto;
         height: auto;
         padding: 0;
+
         background: transparent;
     }
 
@@ -32,4 +34,4 @@
     }
 }
 
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {} */
