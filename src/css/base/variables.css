@@ -1,73 +1,75 @@
 :root {
-    --clr-brand-primary: ;
-    /* Основний*/
-    --clr-brand-pressed: ;
-    /* для ховерів/активних станів*/
-    --clr-brand-light: ;
-    /* для кнопок або фону*/
+    /* 1. Colors - Text */
+    --clr-txt-main: #000;
+    --clr-txt-light: #fff;
+    --clr-txt-textarea: #939eac;
+    --clr-txt-details: #1ab9fd;
 
-    --clr-txt-main: ;
-    /* Основний текст*/
-    --clr-txt-title: ;
-    /* Заголовки та темні акценти*/
-    --clr-txt-light: ;
-    /* Білий текст (на темному фоні)*/
-    --clr-txt-helper: ;
-    /* Другорядний текст, іконки, адреса */
-
-    --clr-bg-main: ;
-    /* Основний фон сторінки */
-    --clr-bg-alt: ;
-    /* Світло-сірий фон для секцій (наприклад, Team) */
-    --clr-bg-dark: ;
-    /* Темний фон для Hero та Footer */
-
-    --clr-border: ;
-    /* Колір рамок та ліній розділювачів (Cornflower) */
-    --clr-success: ;
-    /* Зелений для форм або успішних дій */
-
-    --linear-gradient: linear-gradient(rgb(46, 47, 66, 70%), rgb(46, 47, 66, 70%));
-    --box-shadow: 0 1px 6px 0 rgb(46, 47, 66, 8%);
-    --box-shadow-pressed: 0 2px 1px 0 rgb(46, 47, 66, 8%),
-        0 1px 1px 0 rgb(46, 47, 66, 16%),
-        0 1px 6px 0 rgb(46, 47, 66, 8%);
-
-    /* 3. Fonts Family */
-    --primary-font: 'Roboto', sans-serif;
-    --secondary-font: 'Raleway', sans-serif;
+    /* 2. Backgrounds */
+    --clr-bg-dark-main: #06071b;
+    --clr-bg-light-main: #E5E5E5;
+    --clr-bg-modal-mob: #07081c;
+    --clr-bg-modal-desk: #06071B;
 
 
-    /* 4. Font Sizes (Mobile First) */
-    --fs-hero: 36px;
-    --fs-h2: 36px;
-    --fs-h3: 20px;
-    --fs-logo: 18px;
+    /* 3. Gradients */
+    --linear-gradient: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+    --linear-gradient-header: linear-gradient(99deg, rgb(0, 197, 235, 30%) 0%, rgb(181, 68, 254, 30%) 100%);
+    --linear-gradient-card-man: #06071b,
+        linear-gradient(318deg, rgb(0, 197, 235, 50%) 0%, rgb(181, 68, 254, 50%) 100%);
+    --linear-gradient-card-woman: #06071b, linear-gradient(115deg, rgb(0, 197, 235, 50%) 0%, rgb(181, 68, 254, 50%) 100%);
+
+    /* 4. Blur */
+    --blur-35: blur(35px);
+    /* card */
+
+
+    /* 5. Fonts Family */
+    --primary-font: 'Inter', sans-serif;
+
+    /* 6. Font Sizes (Mobile First) */
+    --nav-mob-menu: 32px;
+    /* nav-mob-menu */
+    --fs-logo: 28px;
+    /* logo */
+    --fs-hero: 24px;
+    /* hero */
+    --fs-h2: 20px;
+    /* h2 cta-footer h2-modal*/
+    --fs-card-name: 18px;
+    /* card-name  */
     --fs-main: 16px;
-    --fs-psdr: 12px;
+    /* button-hero tel cta-modal text-modal*/
+    --fs-card-prof: 14px;
+    /* card-prof texteria email copyright app-modal*/
+    --fs-cta-hero: 14px;
+    /* cta-hero */
+    --fs-h3: 14px;
+    /* text-main h3*/
+    --fs-nav-header: 12px;
+    /* nav-header details-modal */
+    --fs-text-hero: 12px;
+    /* text-hero text-features*/
 
 
-    /* 5. Font Weights */
-    --fw-light: 300;
+
+    /* 7. Font Weights */
     --fw-regular: 400;
+    /* logo  text-hero nav-header app-modal details-modal*/
     --fw-medium: 500;
-    --fw-semibold: 600;
+    /* text-main  card-prof texteria cta-footer tel email copyright nav-mob-menu cta-modal text-modal*/
     --fw-bold: 700;
+    /* hero  cta-hero button-hero h2 h3 card-name h2-modal*/
 
-    /* 6. Line Heights */
-    --lh-hero: 1.11;
-    --lh-logo: 1.17;
-    --lh-heading: 1.2;
-    --lh-policy-accent: 1.33;
-    --lh-main: 1.5;
-    --lh-psdr: 2;
+    /* 8. Line Heights */
+    --lh-cta-modal: 1.5;
+    /* cta-modal text-modal*/
+    --lh-h3: 1.43;
+    /* text-main h3*/
+    --lh-main: 1.71;
+    /* card-prof app-modal*/
 
-    /* 7. Letter Spacing */
-    --ls-base: 0.02em;
-    --ls-logo: 0.03em;
-    --ls-form: 0.04em;
-
-    /* 8. Transitions */
+    /* 9. Transitions */
     --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     --transition-slow: 750ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -76,17 +78,16 @@
 /* Планшет (768px+) */
 @media screen and (min-width: 768px) {
     :root {
-        --fs-hero: ;
-        /* Збільшуємо для планшета */
-        --fs-h2: ;
-    }
-}
-
-/* ДЕСКТОП (від 1200px) */
-@media screen and (min-width: 1200px) {
-    :root {
-        --fs-hero: ;
-        /* Фінальний розмір за макетом */
-        --fs-h2: ;
+        --fs-hero: 40px;
+        /*hero text-features */
+        --fs-cta-hero: 20px;
+        --fs-text-hero: 14px;
+        --fs-h2: 24px;
+        /* h2 cta-footer h2-modal*/
+        --fs-h3: 16px;
+        --lh-h3: 1.5;
+        /* text-main h3*/
+        --lh-h2-modal: 1.17;
+        /* h2-modal */
     }
 }
