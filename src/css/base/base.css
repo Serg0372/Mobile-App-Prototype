@@ -46,6 +46,7 @@ h1 {
 h2 {
   font-size: var(--fs-h2);
   text-align: center;
+  text-transform: uppercase;
 }
 
 .logo {

@@ -1,14 +1,69 @@
 <footer class="footer">
   <div class="container footer-container">
-    <a href="/" class="logo">Logo</a>
-    <nav class="nav">
-      <ul class="nav-list">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
+    <h2 class="section-title footer-title">Contact Us</h2>
+    <div class="footer-text-box">
+      <h3 class="section-subtitle footer-subtitle">Get in touch with us</h3>
+      <p class="footer-description"
+        >Have a question or comment about our app? Get in touch with us using the contact form below
+        and our team will respond shortly.</p
+      ><ul class="social-icons-list">
+        <li class="social-icon">
+          <svg class="social-icon" width="20" height="20">
+            <use href="/icons/sprite.svg#icon-facebook"></use>
+          </svg>
+        </li>
+
+        <li class="social-icon">
+          <svg class="social-icon" width="20" height="20">
+            <use href="/icons/sprite.svg#icon-twitter"></use>
+          </svg>
+        </li>
+        <li class="social-icon">
+          <svg class="social-icon" width="20" height="20">
+            <use href="/icons/sprite.svg#icon-instagram"></use>
+          </svg>
+        </li>
       </ul>
-    </nav>
-    <p class="footer-copy"> © 2026 Your Company. All rights reserved. </p>
+      <address class="footer-address">
+        <ul class="address-list">
+          <li class="address-item"
+            ><a href="tel:+xxxxxxxxxxxx" class="address-link">+xx-xxxx-xxxx-xx</a></li
+          >
+          <li class="address-item"
+            ><a href="email:test@gmail" class="address-link">test@gmail.com</a></li
+          >
+        </ul>
+      </address>
+    </div>
+
+    <div class="contacts-form-box">
+      <form action="" class="contact-form">
+        <input
+          class="form-input"
+          type="text"
+          id="name"
+          name="name"
+          pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+          title="Letters only"
+          placeholder=" "
+          required /><label class="form-label" for="name"></label>
+        <input
+          class="form-input"
+          type="email"
+          id="email"
+          name="email"
+          placeholder=" "
+          required /><label class="form-label" for="email"></label>
+        <textarea
+          class="form-input"
+          name="message"
+          id="message"
+          placeholder=" "
+          required></textarea>
+        <label class="form-label" for="message"></label>
+        <button type="submit" class="form-button">Submit</button>
+      </form>
+    </div>
+    <p class="footer-copy"> &copy; 2026 Serhii | Based on GoIteens Template. </p>
   </div>
 </footer>
