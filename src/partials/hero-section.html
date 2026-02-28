@@ -1,12 +1,49 @@
-<!-- <section class="hero-section" id="hero">
+<section class="hero-section" id="hero">
   <div class="container hero-container">
-    <h1 class="hero-title">Introducing Mobileapp</h1>
-    <p class="hero-cta">Download our mobile app today!</p>
-    <ul class="hero-list">
-      <li class="hero-item">Real-time updates and notifications for timely information</li>
-      <li class="hero-item">Robust analytics and reporting for data-driven insights</li>
-      <li class="hero-item">Offline capabilities for uninterrupted use</li>
-    </ul>
-    <button class="button hero-button modal-btn-open" type="button">Download</button>
+    <div class="hero-text-box">
+      <h1 class="hero-title">Introducing Mobileapp</h1>
+      <p class="hero-cta">Download our mobile app today!</p>
+      <ul class="hero-list">
+        <li class="hero-item">
+          <svg class="hero-item-icon" width="8" height="13">
+            <use href="/icons/sprite.svg#icon-arrow"></use>
+          </svg>
+          <p>Real-time updates and notifications for timely information</p>
+        </li>
+        <li class="hero-item">
+          <svg class="hero-item-icon" width="8" height="13">
+            <use href="/icons/sprite.svg#icon-arrow"></use>
+          </svg>
+          <p>Robust analytics and reporting for data-driven insights</p>
+        </li>
+        <li class="hero-item">
+          <svg class="hero-item-icon" width="8" height="13">
+            <use href="/icons/sprite.svg#icon-arrow"></use>
+          </svg>
+          <p>Offline capabilities for uninterrupted use</p>
+        </li>
+      </ul>
+
+      <button class="button hero-button" type="button">Download</button>
+    </div>
   </div>
-</section> -->
+  <div class="hero-img-box">
+    <!-- <picture class="hero-blob blob-big">
+        <source srcset="./img/hero/hero-blobs-desktop-big.svg" media="(min-width: 1128px)" />
+        <source srcset="./img/hero/hero-blobs-tablet.svg" media="(min-width: 768px)" />
+        <img src="./img/hero/hero-blobs-mobile-big.svg" alt="" aria-hidden="true" />
+      </picture>
+
+      <picture class="hero-blob blob-small">
+        <source srcset="./img/hero/hero-blobs-desktop-small.svg" media="(min-width: 1128px)" />
+        <img src="./img/hero/hero-blobs-mobile-small.svg" alt="" aria-hidden="true" />
+      </picture> -->
+
+    <picture class="hero-img">
+      <source srcset="/src/img/hero/hero-d@1x.webp 1x, /src/img/hero/hero-d@2x.webp 2x" media="(min-width: 1128px)" />
+      <source srcset="/src/img/hero/hero-t@1x.webp 1x, /src/img/hero/hero-t@2x.webp 2x" media="(min-width: 768px)" />
+      <source srcset="/src/img/hero/hero-m@1x.webp 1x, /src/img/hero/hero-m@2x.webp 2x" media="(min-width: 320px)" />
+      <img src="/src/img/hero/hero-d@1x.webp" alt="image of mobile phone" width="888" height="677" />
+    </picture>
+  </div>
+</section>

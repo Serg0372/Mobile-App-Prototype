@@ -1,5 +1,5 @@
 /* ---------------- Burger Menu icon ---------------- */
-.burger-icon {
+/* .burger-icon {
     width: 24px;
     height: 14px;
 
@@ -12,8 +12,13 @@
 .burger-menu:hover .burger-icon,
 .burger-menu:focus .burger-icon {
     stroke: var(--clr-txt-main);
-}
+} */
 
+/* ---------------- Hero item icon ---------------- */
+.hero-item-icon {
+    flex-shrink: 0;
+    margin-top: 4px;
+}
 
 /* ---------------- Button Close icon ---------------- */
 /* .button-close-icon {

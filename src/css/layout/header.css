@@ -7,8 +7,8 @@
     width: 100%;
     margin-top: 20px;
 
-
     background-image: var(--linear-gradient-header);
+    backdrop-filter: var(--blur-35);
 }
 
 .header-container {
@@ -23,7 +23,7 @@
     position: relative;
     display: inline-block;
     color: var(--clr-txt-light);
-    transition: color var(--transition-);
+    transition: color var(--transition);
 }
 
 .logo::before,
@@ -66,28 +66,24 @@
 @media (min-width: 768px) {
     .nav {
         display: flex;
-
-        /* width: auto;
-        height: auto;
-        padding: 0;
-        background: transparent; */
     }
 
     .nav-list {
         display: flex;
         gap: 40px;
+
+        font-size: var(--fs-nav-header);
+        font-weight: var(--fw-regular);
+        text-transform: uppercase;
     }
 
     .nav-item,
     .nav-item::before {
         padding-top: 20px;
         padding-bottom: 20px;
-
     }
 
     .burger {
         display: none;
     }
 }
-
-/* @media screen and (min-width: 1200px) {} */
