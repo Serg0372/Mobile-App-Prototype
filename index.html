@@ -15,7 +15,7 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" />
 
     <script type="module" crossorigin src="./index.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-CPf6RpX0.css">
+    <link rel="stylesheet" crossorigin href="./assets/index-S_R208bO.css">
   </head>
   <body>
     <header class="header">
@@ -27,14 +27,12 @@
         <li><a class="nav-item" href="#" data-text="Home">Home</a></li>
         <li><a class="nav-item" href="#features-section" data-text="Features">Features</a></li>
         <li><a class="nav-item" href="#team-section" data-text="Team">Team</a></li>
-        <li
-          ><a class="nav-item" href="#reviews-section" data-text="Testimonials">Testimonials</a></li
-        >
+        <li><a class="nav-item" href="#reviews-section" data-text="Testimonials">Testimonials</a></li>
         <li><a class="nav-item" href="#footer" data-text="Contact">Contact</a></li>
       </ul>
     </nav>
 
-    <button
+    <!-- <button
       class="burger-menu js-open-menu"
       type="button"
       aria-expanded="false"
@@ -42,24 +40,64 @@
       <svg class="burger-icon" width="24" height="14">
         <use href="./icons/sprite.svg#icon-burger"></use>
       </svg>
+    </button> -->
+    <button class="burger-menu js-open-menu" type="button">
+      <span class="burger-icon"></span>
     </button>
   </div>
 </header>
 
 
     <main>
-      <!-- <section class="hero-section" id="hero">
+      <section class="hero-section" id="hero">
   <div class="container hero-container">
-    <h1 class="hero-title">Introducing Mobileapp</h1>
-    <p class="hero-cta">Download our mobile app today!</p>
-    <ul class="hero-list">
-      <li class="hero-item">Real-time updates and notifications for timely information</li>
-      <li class="hero-item">Robust analytics and reporting for data-driven insights</li>
-      <li class="hero-item">Offline capabilities for uninterrupted use</li>
-    </ul>
-    <button class="button hero-button modal-btn-open" type="button">Download</button>
+    <div class="hero-text-box">
+      <h1 class="hero-title">Introducing Mobileapp</h1>
+      <p class="hero-cta">Download our mobile app today!</p>
+      <ul class="hero-list">
+        <li class="hero-item">
+          <svg class="hero-item-icon" width="8" height="13">
+            <use href="./icons/sprite.svg#icon-arrow"></use>
+          </svg>
+          <p>Real-time updates and notifications for timely information</p>
+        </li>
+        <li class="hero-item">
+          <svg class="hero-item-icon" width="8" height="13">
+            <use href="./icons/sprite.svg#icon-arrow"></use>
+          </svg>
+          <p>Robust analytics and reporting for data-driven insights</p>
+        </li>
+        <li class="hero-item">
+          <svg class="hero-item-icon" width="8" height="13">
+            <use href="./icons/sprite.svg#icon-arrow"></use>
+          </svg>
+          <p>Offline capabilities for uninterrupted use</p>
+        </li>
+      </ul>
+
+      <button class="button hero-button" type="button">Download</button>
+    </div>
   </div>
-</section> -->
+  <div class="hero-img-box">
+    <!-- <picture class="hero-blob blob-big">
+        <source srcset="./img/hero/hero-blobs-desktop-big.svg" media="(min-width: 1128px)" />
+        <source srcset="./img/hero/hero-blobs-tablet.svg" media="(min-width: 768px)" />
+        <img src="./img/hero/hero-blobs-mobile-big.svg" alt="" aria-hidden="true" />
+      </picture>
+
+      <picture class="hero-blob blob-small">
+        <source srcset="./img/hero/hero-blobs-desktop-small.svg" media="(min-width: 1128px)" />
+        <img src="./img/hero/hero-blobs-mobile-small.svg" alt="" aria-hidden="true" />
+      </picture> -->
+
+    <picture class="hero-img">
+      <source srcset="./assets/hero-d@1x-KFrOG7zO.webp 1x, ./assets/hero-d@2x-2ri5o5jH.webp 2x" media="(min-width: 1128px)" />
+      <source srcset="./assets/hero-t@1x-aB0EqQBa.webp 1x, ./assets/hero-t@2x-Bf0efNmi.webp 2x" media="(min-width: 768px)" />
+      <source srcset="./assets/hero-m@1x-BKlhqDYT.webp 1x, ./assets/hero-m@2x-D9c24iL2.webp 2x" media="(min-width: 320px)" />
+      <img src="./assets/hero-d@1x-KFrOG7zO.webp" alt="image of mobile phone" width="888" height="677" />
+    </picture>
+  </div>
+</section>
 
       <!-- <section class="section section-features" id="features-section">
   <div class="container container-features">

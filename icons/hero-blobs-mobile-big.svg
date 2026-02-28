@@ -1,0 +1,17 @@
+<svg width="320" height="621" viewBox="0 0 320 621" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g filter="url(#filter0_f_135_745)">
+    <ellipse cx="173.912" cy="259.489" rx="182.328" ry="12.9821" transform="rotate(-59.0351 173.912 259.489)" fill="#D9D9D9" />
+    <ellipse cx="173.912" cy="259.489" rx="182.328" ry="12.9821" transform="rotate(-59.0351 173.912 259.489)" fill="#00C5EB" fill-opacity="0.5" />
+  </g>
+  <g filter="url(#filter1_f_135_745)">
+    <ellipse cx="46.387" cy="421.557" rx="111.28" ry="12.9821" transform="rotate(-59.0351 46.387 421.557)" fill="#7D55FF" fill-opacity="0.5" />
+  </g>
+  <defs>
+    <filter id="filter0_f_135_745" x="-23.5652" y="0" width="394.955" height="518.977" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="51.5" />
+    </filter>
+    <filter id="filter1_f_135_745" x="-114.951" y="222.899" width="322.676" height="397.316" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="51.5" />
+    </filter>
+  </defs>
+</svg>
