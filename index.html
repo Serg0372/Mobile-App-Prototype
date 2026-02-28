@@ -15,25 +15,27 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" />
 
     <script type="module" crossorigin src="./index.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-Coxb6cx2.css">
+    <link rel="stylesheet" crossorigin href="./assets/index-CPf6RpX0.css">
   </head>
   <body>
     <header class="header">
   <div class="container header-container">
-    <a href="/" class="logo">Mobileapp</a>
+    <a href="/" class="logo" data-text="Mobileapp">Mobileapp</a>
 
     <nav class="nav">
       <ul class="nav-list">
-        <li><a href="#">Home</a></li>
-        <li><a href="#features-section">Features</a></li>
-        <li><a href="#team-section">Team</a></li>
-        <li><a href="#reviews-section">Testimonials</a></li>
-        <li><a href="#footer">Contact</a></li>
+        <li><a class="nav-item" href="#" data-text="Home">Home</a></li>
+        <li><a class="nav-item" href="#features-section" data-text="Features">Features</a></li>
+        <li><a class="nav-item" href="#team-section" data-text="Team">Team</a></li>
+        <li
+          ><a class="nav-item" href="#reviews-section" data-text="Testimonials">Testimonials</a></li
+        >
+        <li><a class="nav-item" href="#footer" data-text="Contact">Contact</a></li>
       </ul>
     </nav>
 
     <button
-      class="burger-menu-btn js-open-menu"
+      class="burger-menu js-open-menu"
       type="button"
       aria-expanded="false"
       aria-controls="mobile-menu">
@@ -46,7 +48,7 @@
 
 
     <main>
-      <section class="hero-section" id="hero">
+      <!-- <section class="hero-section" id="hero">
   <div class="container hero-container">
     <h1 class="hero-title">Introducing Mobileapp</h1>
     <p class="hero-cta">Download our mobile app today!</p>
@@ -57,9 +59,9 @@
     </ul>
     <button class="button hero-button modal-btn-open" type="button">Download</button>
   </div>
-</section>
+</section> -->
 
-      <section class="section section-features">
+      <!-- <section class="section section-features" id="features-section">
   <div class="container container-features">
     <h2 class="section-titile section-titile-features">Key features</h2>
     <p class="features-text"
@@ -69,11 +71,11 @@
     >
     <img
       class="features-img"
-      src="./assets/man-d@1x-CZG5jn1k.webp"
+      src="/src/img/features/man-d@1x.webp"
       alt="Professional sitting in a chair with a laptop, getting a creative idea against a giant smartphone background"
       width="396"
       height="601"
-      srcset="./assets/man-d@1x-CZG5jn1k.webp 1x, ./assets/man-d@2x-DhkT5ggZ.webp 2x"
+      srcset="/src/img/features/man-d@1x.webp 1x, /src/img/features/man-d@2x.webp 2x"
       srcset="/src/img/features/man-t@1x.webp 1x, /src/img/features/man-t@2x.webp 2x"
       srcset="/src/img/features/man-m@1x.webp 1x, /src/img/features/man-m@2x.webp 2x" />
     <ul class="features-list">
@@ -123,9 +125,9 @@
       </li>
     </ul>
   </div>
-</section>
+</section> -->
 
-      <section class="section section-video-promo">
+      <!-- <section class="section section-video-promo">
   <div class="container video-promo">
     <div class="video-text-box">
       <h2 class="section-title video-title">Watch the video</h2>
@@ -138,12 +140,12 @@
       <ul class="video-icons-list">
         <li class="video-icon">
           <svg class="video-icon" width="30" height="36">
-            <use href="./icons/sprite.svg#icon-apple"></use>
+            <use href="/icons/sprite.svg#icon-apple"></use>
           </svg>
         </li>
         <li class="video-icon">
           <svg class="video-icon" width="32" height="36">
-            <use href="./icons/sprite.svg#icon-android"></use>
+            <use href="/icons/sprite.svg#icon-android"></use>
           </svg>
         </li>
       </ul>
@@ -151,18 +153,18 @@
     <div class="video-promo-box">
       <img
         class="video-img"
-        src="./assets/iPhone-d@1x-4UarsN-i.webp"
+        src="/src/img/video/iPhone-d@1x.webp"
         alt="mobile phone in hand with a video playing in the background"
         width="501"
         height="282"
-        srcset="./assets/iPhone-d@1x-4UarsN-i.webp 1x, ./assets/iPhone-d@2x-DdKhR5q4.webp 2x"
+        srcset="/src/img/video/iPhone-d@1x.webp 1x, /src/img/video/iPhone-d@2x.webp 2x"
         srcset="/src/img/video/iPhone-t@1x.webp 1x, /src/img/video/iPhone-t@2x.webp 2x"
         srcset="/src/img/video/iPhone-m@1x.webp 1x, /src/img/video/iPhone-m@2x.webp 2x" />
     </div>
   </div>
-</section>
+</section> -->
 
-      <section class="section">
+      <!-- <section class="section" id="team-section">
   <div class="container">
     <h2 class="section-title">Our team</h2>
     <p class="team-description"
@@ -174,11 +176,11 @@
       <li class="team-card">
         <img
           class="team-foto"
-          src="./assets/david-d@1x-CIGMXYK2.webp"
+          src="/src/img/team/david-d@1x.webp"
           alt="foto David Patel"
           width="264"
           height="260"
-          srcset="./assets/david-d@1x-CIGMXYK2.webp 1x, ./assets/david-d@2x-qs5f7p8n.webp 2x"
+          srcset="/src/img/team/david-d@1x.webp 1x, /src/img/team/david-d@2x.webp 2x"
           srcset="/src/img/team/david-t@1x.webp 1x, /src/img/team/david-t@2x.webp 2x"
           srcset="/src/img/team/david-m@1x.webp 1x, /src/img/team/david-m@2x.webp 2x" />
         <h3 class="team-name">David Patel</h3>
@@ -187,11 +189,11 @@
       <li class="team-card">
         <img
           class="team-foto"
-          src="./assets/rachel-d@1x-CS7ktlNm.webp"
+          src="/src/img/team/rachel-d@1x.webp"
           alt="foto Rachel Kim"
           width="264"
           height="260"
-          srcset="./assets/rachel-d@1x-CS7ktlNm.webp 1x, ./assets/rachel-d@2x-CYeCTOhI.webp 2x"
+          srcset="/src/img/team/rachel-d@1x.webp 1x, /src/img/team/rachel-d@2x.webp 2x"
           srcset="/src/img/team/rachel-t@1x.webp 1x, /src/img/team/rachel-t@2x.webp 2x"
           srcset="/src/img/team/rachel-m@1x.webp 1x, /src/img/team/rachel-m@2x.webp 2x" />
         <h3 class="team-name">Rachel Kim</h3>
@@ -200,11 +202,11 @@
       <li class="team-card">
         <img
           class="team-foto"
-          src="./assets/rachel-d@1x-CS7ktlNm.webp"
+          src="/src/img/team/rachel-d@1x.webp"
           alt="foto Samantha Chen"
           width="264"
           height="260"
-          srcset="./assets/samantha-d@1x-DsN3GuBV.webp 1x, ./assets/samantha-d@2x-BFSXkgRP.webp 2x"
+          srcset="/src/img/team/samantha-d@1x.webp 1x, /src/img/team/samantha-d@2x.webp 2x"
           srcset="/src/img/team/samantha-t@1x.webp 1x, /src/img/team/samantha-t@2x.webp 2x"
           srcset="/src/img/team/samantha-m@1x.webp 1x, /src/img/team/samantha-m@2x.webp 2x" />
         <h3 class="team-name">Samantha Chen</h3>
@@ -213,11 +215,11 @@
       <li class="team-card">
         <img
           class="team-foto"
-          src="./assets/andrew-d@1x-BV1KpHSW.webp"
+          src="/src/img/team/andrew-d@1x.webp"
           alt="foto Andrew Nguyen"
           width="264"
           height="260"
-          srcset="./assets/andrew-d@1x-BV1KpHSW.webp 1x, ./assets/andrew-d@2x-BVCBiKCC.webp 2x"
+          srcset="/src/img/team/andrew-d@1x.webp 1x, /src/img/team/andrew-d@2x.webp 2x"
           srcset="/src/img/team/andrew-t@1x.webp 1x, /src/img/team/andrew-t@2x.webp 2x"
           srcset="/src/img/team/andrew-m@1x.webp 1x, /src/img/team/andrew-m@2x.webp 2x" />
         <h3 class="team-name">Andrew Nguyen</h3>
@@ -225,31 +227,14 @@
       </li>
     </ul>
   </div>
-</section>
+</section> -->
 
-      <section class="section section-reviews">
+      <!-- <section class="section section-reviews" id="reviews-section">
   <div class="container reviews-container">
     <h2 class="section-title reviews-title">What our coustomer's say</h2>
     <div class="review-cards-box">
       <ul class="review-cards-list">
         <li class="review-card">
-          <img
-            class="review-img"
-            src="./assets/jon@1x-B-PDJ86N.webp"
-            alt="foto Jon Doe"
-            width="181"
-            height="181"
-            srcset="./assets/jon@1x-B-PDJ86N.webp 1x, /src/img/testimonials/jon@2x.webp 2x" />
-          <h3 class="review-name">Jon Doe</h3>
-          <p class="company-name">Company Inc.</p>
-          <p class="review description"
-            >I've been using this app for a few weeks now and I have to say, I'm really impressed.
-            It's so easy to use and the personalized recommendations are spot-on. Plus, the
-            transactions are secure and the updates are always timely. I would definitely recommend
-            this app to anyone looking for a better mobile experience</p
-          >
-        </li>
-        <!-- <li class="review-card">
           <img
             class="review-img"
             src="/src/img/testimonials/jon@1x.webp"
@@ -266,14 +251,31 @@
             this app to anyone looking for a better mobile experience</p
           >
         </li> -->
-      </ul>
+<!-- <li class="review-card">
+          <img
+            class="review-img"
+            src="/src/img/testimonials/jon@1x.webp"
+            alt="foto Jon Doe"
+            width="181"
+            height="181"
+            srcset="/src/img/testimonials/jon@1x.webp 1x, /src/img/testimonials/jon@2x.webp 2x" />
+          <h3 class="review-name">Jon Doe</h3>
+          <p class="company-name">Company Inc.</p>
+          <p class="review description"
+            >I've been using this app for a few weeks now and I have to say, I'm really impressed.
+            It's so easy to use and the personalized recommendations are spot-on. Plus, the
+            transactions are secure and the updates are always timely. I would definitely recommend
+            this app to anyone looking for a better mobile experience</p
+          >
+        </li> -->
+<!-- </ul>
     </div>
   </div>
-</section>
+</section> -->
 
     </main>
 
-    <footer class="footer">
+    <!-- <footer class="footer" id="footer">
   <div class="container footer-container">
     <h2 class="section-title footer-title">Contact Us</h2>
     <div class="footer-text-box">
@@ -284,18 +286,18 @@
       ><ul class="social-icons-list">
         <li class="social-icon">
           <svg class="social-icon" width="20" height="20">
-            <use href="./icons/sprite.svg#icon-facebook"></use>
+            <use href="/icons/sprite.svg#icon-facebook"></use>
           </svg>
         </li>
 
         <li class="social-icon">
           <svg class="social-icon" width="20" height="20">
-            <use href="./icons/sprite.svg#icon-twitter"></use>
+            <use href="/icons/sprite.svg#icon-twitter"></use>
           </svg>
         </li>
         <li class="social-icon">
           <svg class="social-icon" width="20" height="20">
-            <use href="./icons/sprite.svg#icon-instagram"></use>
+            <use href="/icons/sprite.svg#icon-instagram"></use>
           </svg>
         </li>
       </ul>
@@ -341,17 +343,17 @@
     </div>
     <p class="footer-copy"> &copy; 2026 Serhii | Based on GoIteens Template. </p>
   </div>
-</footer>
+</footer> -->
 
 
-    <div class="backdrop is-hidden" data-modal>
+    <!-- <div class="backdrop is-hidden" data-modal>
   <div class="modal">
     <button
       class="button-close modal-button-close js-close-modal"
       type="button"
       aria-label="Закрити">
       <svg class="button-close-icon" width="14" height="14">
-        <use href="./icons/sprite.svg#icon-close"></use>
+        <use href="/icons/sprite.svg#icon-close"></use>
       </svg>
     </button>
 
@@ -359,46 +361,46 @@
 
     <div class="modal-download">
       <svg class="modal-download-icon" width="80" height="106">
-        <use href="./icons/sprite.svg#icon-file-download"></use>
+        <use href="/icons/sprite.svg#icon-file-download"></use>
       </svg>
       <h3 class="section-subtitle">Download free plan</h3>
       <ul class="download-features-plan">
         <li class="download-feature">
           <svg class="download-feature-icon" width="14" height="14">
-            <use href="./icons/sprite.svg#icon-play"></use></svg
+            <use href="/icons/sprite.svg#icon-play"></use></svg
           >Basic functionality</li
         >
         <li class="download-feature">
           <svg class="download-feature-icon" width="14" height="14">
-            <use href="./icons/sprite.svg#icon-play"></use></svg
+            <use href="/icons/sprite.svg#icon-play"></use></svg
           >Limited access
         </li>
         <li class="download-feature">
           <svg class="download-feature-icon" width="14" height="14">
-            <use href="./icons/sprite.svg#icon-play"></use></svg
+            <use href="/icons/sprite.svg#icon-play"></use></svg
           >Community support
         </li>
       </ul>
     </div>
     <div class="modal-download">
       <svg class="modal-download-icon" width="80" height="106">
-        <use href="./icons/sprite.svg#icon-file-download"></use>
+        <use href="/icons/sprite.svg#icon-file-download"></use>
       </svg>
       <h3 class="section-subtitle">Download for 20$</h3>
       <ul class="download-features-plan">
         <li class="download-feature">
           <svg class="download-feature-icon" width="14" height="14">
-            <use href="./icons/sprite.svg#icon-play"></use></svg
+            <use href="/icons/sprite.svg#icon-play"></use></svg
           >Ad-free experience</li
         >
         <li class="download-feature">
           <svg class="download-feature-icon" width="14" height="14">
-            <use href="./icons/sprite.svg#icon-play"></use></svg
+            <use href="/icons/sprite.svg#icon-play"></use></svg
           >Unlock exclusive features
         </li>
         <li class="download-feature">
           <svg class="download-feature-icon" width="14" height="14">
-            <use href="./icons/sprite.svg#icon-play"></use></svg
+            <use href="/icons/sprite.svg#icon-play"></use></svg
           >Content for the ultimate mobile experience
         </li>
       </ul>
@@ -412,7 +414,7 @@
         <li class="product">
           <div class="product-icon-box"
             ><svg class="product-icon" width="28" height="28">
-              <use href="./icons/sprite.svg#icon-file"></use></svg
+              <use href="/icons/sprite.svg#icon-file"></use></svg
           ></div>
           <p class="product-label">App name</p>
           <p class="product-value">Mobileapp.layout</p>
@@ -420,7 +422,7 @@
         <li class="product">
           <div class="product-icon-box"
             ><svg class="product-icon" width="28" height="28">
-              <use href="./icons/sprite.svg#icon-license"></use></svg
+              <use href="/icons/sprite.svg#icon-license"></use></svg
           ></div>
           <p class="product-label">License</p>
           <p class="product-value">Free</p>
@@ -428,7 +430,7 @@
         <li class="product">
           <div class="product-icon-box"
             ><svg class="product-icon" width="28" height="28">
-              <use href="./icons/sprite.svg#icon-author"></use></svg
+              <use href="/icons/sprite.svg#icon-author"></use></svg
           ></div>
           <p class="product-label">Author</p>
           <p class="product-value">Mobile Marrket App.com</p>
@@ -436,7 +438,7 @@
         <li class="product">
           <div class="product-icon-box"
             ><svg class="product-icon" width="28" height="28">
-              <use href="./icons/sprite.svg#icon-data"></use></svg
+              <use href="/icons/sprite.svg#icon-data"></use></svg
           ></div>
           <p class="product-label">Data</p>
           <p class="product-value">21.02.2026</p>
@@ -446,7 +448,7 @@
         <li class="product">
           <div class="product-icon-box"
             ><svg class="product-icon" width="28" height="28">
-              <use href="./icons/sprite.svg#icon-oc"></use></svg
+              <use href="/icons/sprite.svg#icon-oc"></use></svg
           ></div>
           <p class="product-label product-label-upper">Oc</p>
           <p class="product-value">Windows</p>
@@ -454,7 +456,7 @@
         <li class="product">
           <div class="product-icon-box"
             ><svg class="product-icon" width="28" height="28">
-              <use href="./icons/sprite.svg#icon-language"></use></svg
+              <use href="/icons/sprite.svg#icon-language"></use></svg
           ></div>
           <p class="product-label">Language</p>
           <p class="product-value">English</p>
@@ -462,7 +464,7 @@
         <li class="product">
           <div class="product-icon-box"
             ><svg class="product-icon" width="28" height="28">
-              <use href="./icons/sprite.svg#icon-size"></use></svg
+              <use href="/icons/sprite.svg#icon-size"></use></svg
           ></div>
           <p class="product-label">Size</p>
           <p class="product-value">4.16 MB</p>
@@ -470,7 +472,7 @@
         <li class="product">
           <div class="product-icon-box"
             ><svg class="product-icon" width="28" height="28">
-              <use href="./icons/sprite.svg#icon-downloads"></use></svg
+              <use href="/icons/sprite.svg#icon-downloads"></use></svg
           ></div>
           <p class="product-label">Downloads</p>
           <p class="product-value">964</p>
@@ -479,7 +481,7 @@
     </div>
     <button class="button hero-button modal-btn-open" type="button">Download</button>
   </div>
-</div>
+</div> -->
 
     <!-- <div class="mobile-menu js-menu-container">
   <div class="container mobile-menu-container">
@@ -487,39 +489,32 @@
       class="mobile-menu-button-close button-close js-close-menu"
       type="button"
       aria-label="Закрити меню">
-      <svg class="button-close-icon" width="24" height="24">
+      <svg class="button-close-icon" width="20" height="20">
         <use href="/icons/sprite.svg#icon-close"></use>
       </svg>
     </button>
 
-    <a class="logo mobile-menu-logo" href="./index.html">
-      <svg class="logo-icon" width="72" height="40">
-        <use href="/icons/sprite.svg#icon-logo"></use>
-      </svg>
-    </a>
+    <a href="/" class="logo mobile-menu-logo">Mobileapp</a>
 
     <nav class="mobile-menu-nav">
       <ul class="mobile-menu-list list">
         <li class="mobile-menu-item">
-          <a class="mobile-menu-link link" href="#section-1">Про нас</a>
+          <a class="mobile-menu-link" href="#">Home</a>
         </li>
         <li class="mobile-menu-item">
-          <a class="mobile-menu-link link" href="#section-2">Послуги</a>
+          <a class="mobile-menu-link" href="#features-section">Features</a>
         </li>
         <li class="mobile-menu-item">
-          <a class="mobile-menu-link link" href="#section-3">Команда</a>
+          <a class="mobile-menu-link" href="#team-section">Team</a>
         </li>
         <li class="mobile-menu-item">
-          <a class="mobile-menu-link link" href="#section-4">Контакти</a>
+          <a class="mobile-menu-link" href="#reviews-section">Testimonials</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link" href="#footer">Contacts</a>
         </li>
       </ul>
     </nav>
-
-    <div class="mobile-menu-decoration">
-      <svg width="140" height="140">
-        <use href="/icons/sprite.svg#icon-decoration"></use>
-      </svg>
-    </div>
   </div>
 </div> -->
 
