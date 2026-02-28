@@ -1,37 +1,18 @@
-/* ---------------- Header & General Logo ---------------- */
-/* .logo {
-    display: block;
-}
-
-.logo-icon {
-    width: px;
-    height: px;
-    fill: var();
-    transition: fill var(--transition);
-}
-
-.logo:hover .logo-icon,
-.logo:focus .logo-icon {
-    fill: var();
-} */
-
-
 /* ---------------- Burger Menu icon ---------------- */
-/* .burger-icon {
+.burger-icon {
     width: 24px;
-    height: 24px;
+    height: 14px;
 
-    fill: var();
-    stroke: var();
+    stroke: var(--clr-txt-light);
+    stroke-width: 3px;
 
-    transition: fill var(--transition), stroke var(--transition);
+    transition: stroke var(--transition);
 }
 
 .burger-menu:hover .burger-icon,
 .burger-menu:focus .burger-icon {
-    fill: var();
-    stroke: var();
-} */
+    stroke: var(--clr-txt-main);
+}
 
 
 /* ---------------- Button Close icon ---------------- */

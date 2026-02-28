@@ -1,24 +1,26 @@
 <header class="header">
   <div class="container header-container">
-    <a href="/" class="logo">Mobileapp</a>
+    <a href="/" class="logo" data-text="Mobileapp">Mobileapp</a>
 
     <nav class="nav">
       <ul class="nav-list">
-        <li><a href="#">Home</a></li>
-        <li><a href="#features-section">Features</a></li>
-        <li><a href="#team-section">Team</a></li>
-        <li><a href="#reviews-section">Testimonials</a></li>
-        <li><a href="#footer">Contact</a></li>
+        <li><a class="nav-item" href="#" data-text="Home">Home</a></li>
+        <li><a class="nav-item" href="#features-section" data-text="Features">Features</a></li>
+        <li><a class="nav-item" href="#team-section" data-text="Team">Team</a></li>
+        <li
+          ><a class="nav-item" href="#reviews-section" data-text="Testimonials">Testimonials</a></li
+        >
+        <li><a class="nav-item" href="#footer" data-text="Contact">Contact</a></li>
       </ul>
     </nav>
 
     <button
-      class="burger-menu-btn js-open-menu"
+      class="burger-menu js-open-menu"
       type="button"
       aria-expanded="false"
       aria-controls="mobile-menu">
       <svg class="burger-icon" width="24" height="14">
-        <use href="/icons/sprite.svg#icon-burger"></use>
+        <use href="./icons/sprite.svg#icon-burger"></use>
       </svg>
     </button>
   </div>

@@ -1,6 +1,7 @@
 {
   "extends": ["stylelint-config-standard", "stylelint-config-clean-order"],
   "rules": {
+    "property-no-vendor-prefix": null,
     "media-feature-range-notation": "prefix",
     "color-function-notation": "legacy",
     "selector-class-pattern": null,
