@@ -1,18 +1,4 @@
 /* ---------------- Burger Menu icon ---------------- */
-/* .burger-icon {
-    width: 24px;
-    height: 14px;
-
-    stroke: var(--clr-txt-light);
-    stroke-width: 3px;
-
-    transition: stroke var(--transition);
-}
-
-.burger-menu:hover .burger-icon,
-.burger-menu:focus .burger-icon {
-    stroke: var(--clr-txt-main);
-} */
 
 /* ---------------- Hero item icon ---------------- */
 .hero-item-icon {
