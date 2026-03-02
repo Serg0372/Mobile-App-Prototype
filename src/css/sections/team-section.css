@@ -1,0 +1,146 @@
+.team-section {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.team-container {
+    text-align: center;
+}
+
+.section-title {
+    margin-bottom: 24px;
+}
+
+.team-description {
+    margin-bottom: 28px;
+    line-height: var(--lh-h3);
+}
+
+.team-cards-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-card {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 280px;
+    padding: 16px 16px 12px;
+    border-radius: 15px;
+
+    color: var(--clr-txt-light);
+    text-shadow: 0 4px 4px rgb(0, 0, 0, 25%);
+}
+
+.team-card::before {
+    content: "";
+
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+
+    background-color: var(--clr-bg-dark-main);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: var(--blur-35);
+}
+
+.team-card:nth-child(1),
+.team-card:nth-child(4) {
+    background: var(--linear-gradient-card-man);
+}
+
+.team-card:nth-child(2),
+.team-card:nth-child(3) {
+    background: var(--linear-gradient-card-woman);
+}
+
+.team-foto {
+    width: 248px;
+    height: 303px;
+    margin-bottom: 24px;
+    border-radius: 15px;
+}
+
+.team-name {
+    margin-bottom: 12px;
+    font-size: var(--fs-card-name);
+}
+
+.team-profesion {
+    font-size: var(--fs-card-prof);
+    line-height: var(--lh-main);
+}
+
+@media screen and (min-width: 768px) {
+    .team-section {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+
+    .section-title {
+        margin-bottom: 40px;
+    }
+
+    .team-description {
+        margin-bottom: 40px;
+    }
+
+    .team-cards-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 40px 32px;
+        width: 712px;
+    }
+
+    .team-card {
+        width: calc((100% - 32px)/2);
+        padding: 20px 20px 12px;
+    }
+
+    .team-foto {
+        width: 296px;
+        height: 299px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .section-title {
+        margin-bottom: 80px;
+    }
+
+    .team-description {
+        width: 886px;
+        margin-right: auto;
+        margin-bottom: 56px;
+        margin-left: auto;
+    }
+
+    .team-cards-list {
+        flex-wrap: nowrap;
+        gap: 32px;
+        width: 1236px;
+    }
+
+    .team-card {
+        width: calc((100% - 32px*3)/4);
+        padding: 14px 12px 12px;
+    }
+
+    .team-foto {
+        width: 264px;
+        height: 260px;
+    }
+}

@@ -15,9 +15,9 @@
     /* 3. Gradients */
     --linear-gradient: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
     --linear-gradient-header: linear-gradient(99deg, rgb(0, 197, 235, 30%) 0%, rgb(181, 68, 254, 30%) 100%);
-    --linear-gradient-card-man: #06071b,
+    --linear-gradient-card-man:
         linear-gradient(318deg, rgb(0, 197, 235, 50%) 0%, rgb(181, 68, 254, 50%) 100%);
-    --linear-gradient-card-woman: #06071b, linear-gradient(115deg, rgb(0, 197, 235, 50%) 0%, rgb(181, 68, 254, 50%) 100%);
+    --linear-gradient-card-woman: linear-gradient(115deg, rgb(0, 197, 235, 50%) 0%, rgb(181, 68, 254, 50%) 100%);
 
     /* 4. Blur */
     --blur-35: blur(35px);
@@ -68,6 +68,7 @@
     /* text-main h3*/
     --lh-h: 1.17;
     /*h1 h2  */
+    --lh-text: 1.22;
     --lh-main: 1.71;
     /* card-prof app-modal*/
 

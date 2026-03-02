@@ -1,6 +1,6 @@
 .hero-section {
     position: relative;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     background-color: var(--clr-bg-dark-main);
 }
 
@@ -59,9 +59,9 @@
 
 
 @media screen and (min-width: 768px) {
-    .hero-section {
+    /* .hero-section {
         margin-bottom: 37px;
-    }
+    } */
 
     .hero-container {
         padding-top: 142px;
@@ -97,7 +97,7 @@
     .hero-img-box {
         position: absolute;
         right: 0;
-        bottom: -110px;
+        bottom: -70px;
 
         width: 888px;
         height: 677px;
