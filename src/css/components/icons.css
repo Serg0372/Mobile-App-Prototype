@@ -7,16 +7,21 @@
 }
 
 /* ---------------- Button Close icon ---------------- */
-/* .button-close-icon {
-    fill: none;
-    stroke: var();
+.button-close-icon {
+    width: 20px;
+    height: 20px;
+
+    fill: var(--clr-bg-light-main);
+    stroke: var(--clr-bg-light-main);
+
     transition: stroke var(--transition);
 }
 
 .button-close:hover .button-close-icon,
 .button-close:focus .button-close-icon {
-    stroke: var();
-} */
+    fill: var(--clr-txt-details);
+    stroke: var(--clr-txt-details);
+}
 
 
 /* ---------------- Button Scroll icon ---------------- */

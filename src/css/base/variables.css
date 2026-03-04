@@ -18,9 +18,9 @@
     --linear-gradient-card-man:
         linear-gradient(318deg, rgb(0, 197, 235, 50%) 0%, rgb(181, 68, 254, 50%) 100%);
     --linear-gradient-card-woman: linear-gradient(115deg, rgb(0, 197, 235, 50%) 0%, rgb(181, 68, 254, 50%) 100%);
-
-    /* 4. Blur */
-    --blur-35: blur(35px);
+    --text-shadow: 0 0 20px rgb(0, 197, 235, 20%)
+        /* 4. Blur */
+        --blur-35: blur(35px);
     /* card */
 
 
