@@ -1,0 +1,91 @@
+.reviews-section {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.reviews-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.reviews-title {
+    max-width: 200px;
+    margin-bottom: 40px;
+}
+
+.review-img {
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+}
+
+.review-name {
+    margin-bottom: 12px;
+    font-size: var(--fs-card-name);
+}
+
+.company-name {
+    margin-bottom: 24px;
+}
+
+.review-description {
+    position: relative;
+    padding-bottom: 40px;
+    line-height: var(--lh-h3);
+}
+
+.review-description::before {
+    content: "";
+
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    transform: translate(-50%, -50%);
+
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+
+    background-color: var(--clr-bg-dark-main);
+    box-shadow: 14px 0 0 0 var(--clr-txt-textarea),
+        28px 0 0 0 var(--clr-txt-textarea),
+        42px 0 0 0 var(--clr-txt-textarea),
+        56px 0 0 0 var(--clr-txt-textarea),
+        70px 0 0 0 var(--clr-txt-textarea);
+}
+
+@media screen and (min-width: 768px) {
+    .reviews-section {
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+
+    .reviews-title {
+        max-width: 100%;
+    }
+
+    .company-name {
+        margin-bottom: 40px;
+    }
+
+    .review-description {
+        padding-bottom: 64px;
+        line-height: var(--lh-cta-modal);
+    }
+
+    .review-description::before {
+        left: 45%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .review-description::before {
+        left: 47%;
+
+    }
+}
