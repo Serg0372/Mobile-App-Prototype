@@ -15,7 +15,7 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" />
 
     <script type="module" crossorigin src="./index.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-C71W38sp.css">
+    <link rel="stylesheet" crossorigin href="./assets/index-DCOnNGFq.css">
   </head>
   <body>
     <header class="header">
@@ -24,7 +24,7 @@
 
     <nav class="nav">
       <ul class="nav-list">
-        <li><a class="nav-item" href="#" data-text="Home">Home</a></li>
+        <li><a class="nav-item" href="/" data-text="Home">Home</a></li>
         <li><a class="nav-item" href="#features-section" data-text="Features">Features</a></li>
         <li><a class="nav-item" href="#team-section" data-text="Team">Team</a></li>
         <li><a class="nav-item" href="#reviews-section" data-text="Testimonials">Testimonials</a></li>
@@ -169,14 +169,18 @@
       </p>
       <ul class="video-icons-list">
         <li class="video-icon-item">
-          <svg class="video-icon" width="30" height="36">
-            <use href="./icons/sprite.svg#icon-apple"></use>
-          </svg>
+          <a class="video-icon-link" href="https://www.apple.com/app-store/" target="_blank">
+            <svg class="video-icon" width="30" height="36">
+              <use href="./icons/sprite.svg#icon-apple"></use>
+            </svg>
+          </a>
         </li>
         <li class="video-icon-item">
-          <svg class="video-icon" width="32" height="36">
-            <use href="./icons/sprite.svg#icon-android"></use>
-          </svg>
+          <a class="video-icon-link" href="https://play.google.com/store/apps" target="_blank">
+            <svg class="video-icon" width="32" height="36">
+              <use href="./icons/sprite.svg#icon-android"></use>
+            </svg>
+          </a>
         </li>
       </ul>
     </div>
@@ -196,7 +200,7 @@
 
       <section class="team-section" id="team-section">
   <div class="container team-container">
-    <h2 class="section-title">Our team</h2>
+    <h2 class="section-title team-title">Our team</h2>
     <p class="team-description">
       Our team is made up of talented and passionate individuals who are committed to providing the best experience for our users. Each
       member brings a unique set of skills and expertise to the table, allowing us to work collaboratively and effectively to achieve our
@@ -313,46 +317,12 @@
 
     </main>
 
-    <!-- <footer class="footer" id="footer">
+    <footer class="footer" id="footer">
   <div class="container footer-container">
     <h2 class="section-title footer-title">Contact Us</h2>
-    <div class="footer-text-box">
-      <h3 class="section-subtitle footer-subtitle">Get in touch with us</h3>
-      <p class="footer-description"
-        >Have a question or comment about our app? Get in touch with us using the contact form below
-        and our team will respond shortly.</p
-      ><ul class="social-icons-list">
-        <li class="social-icon">
-          <svg class="social-icon" width="20" height="20">
-            <use href="/icons/sprite.svg#icon-facebook"></use>
-          </svg>
-        </li>
 
-        <li class="social-icon">
-          <svg class="social-icon" width="20" height="20">
-            <use href="/icons/sprite.svg#icon-twitter"></use>
-          </svg>
-        </li>
-        <li class="social-icon">
-          <svg class="social-icon" width="20" height="20">
-            <use href="/icons/sprite.svg#icon-instagram"></use>
-          </svg>
-        </li>
-      </ul>
-      <address class="footer-address">
-        <ul class="address-list">
-          <li class="address-item"
-            ><a href="tel:+xxxxxxxxxxxx" class="address-link">+xx-xxxx-xxxx-xx</a></li
-          >
-          <li class="address-item"
-            ><a href="email:test@gmail" class="address-link">test@gmail.com</a></li
-          >
-        </ul>
-      </address>
-    </div>
-
-    <div class="contacts-form-box">
-      <form action="" class="contact-form">
+    <form class="contact-form">
+      <div class="form-field">
         <input
           class="form-input"
           type="text"
@@ -361,27 +331,64 @@
           pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
           title="Letters only"
           placeholder=" "
-          required /><label class="form-label" for="name"></label>
-        <input
-          class="form-input"
-          type="email"
-          id="email"
-          name="email"
-          placeholder=" "
-          required /><label class="form-label" for="email"></label>
-        <textarea
-          class="form-input"
-          name="message"
-          id="message"
-          placeholder=" "
-          required></textarea>
-        <label class="form-label" for="message"></label>
-        <button type="submit" class="form-button">Submit</button>
-      </form>
+          required />
+        <label class="form-label" for="name">Name</label>
+      </div>
+      <div class="form-field">
+        <input class="form-input" type="email" id="email" name="email" placeholder=" " required />
+        <label class="form-label" for="email">Email</label>
+      </div>
+      <div class="form-field">
+        <textarea class="form-input form-textarea" name="message" id="message" placeholder=" " required></textarea>
+        <label class="form-label form-textarea-label" for="message">Text</label>
+      </div>
+      <button type="submit" class="button form-button">Submit</button>
+    </form>
+
+    <div class="footer-text-box">
+      <h3 class="section-subtitle footer-subtitle">Get in touch with us</h3>
+      <p class="footer-description">
+        Have a question or comment about our app? Get in touch with us using the contact form below and our team will respond shortly.
+      </p>
+      <ul class="social-icons-list">
+        <li class="social-icon-item">
+          <a href="https://www.facebook.com/" target="_blank">
+            <svg class="social-icon" width="20" height="20">
+              <use href="./icons/sprite.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+
+        <li class="social-icon-item">
+          <a href="https://x.com/" target="_blank">
+            <svg class="social-icon" width="20" height="20">
+              <use href="./icons/sprite.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-icon-item">
+          <a href="https://www.instagram.com/" target="_blank">
+            <svg class="social-icon" width="20" height="20">
+              <use href="./icons/sprite.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <address class="footer-address">
+        <ul class="address-list">
+          <li class="address-item"><a href="tel:+xxxxxxxxxxxx" class="address-link">+xx-xxxx-xxxx-xx</a></li>
+          <li class="address-item"><a href="email:test@gmail" class="address-link">test@gmail.com</a></li>
+        </ul>
+      </address>
     </div>
-    <p class="footer-copy"> &copy; 2026 Serhii | Based on GoIteens Template. </p>
+
+    <p class="footer-copy">
+      &copy; 2026 Serhii
+      <br />
+      Based on GoIteens Template.
+    </p>
   </div>
-</footer> -->
+</footer>
 
 
     <!-- <div class="backdrop is-hidden" data-modal>
