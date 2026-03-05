@@ -43,17 +43,143 @@
     fill: var();
 } */
 
-/* ---------------- Social icon ---------------- */
-/* .social-icon {
-    fill: var();
-    transition: fill var(--transition);
+
+/* ---------------- Video icons list ---------------- */
+.video-icons-list {
+    display: flex;
+    gap: 20px;
 }
 
-.social-link:hover .social-icon,
-.social-link:focus .social-icon {
-    fill: var();
+.video-icon-item {
+    position: relative;
+    z-index: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+
+    background: transparent;
+
+    transition: background-color var(--transition);
+}
+
+.video-icon-item::after {
+    content: "";
+
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+
+    padding: 2px;
+    border-radius: 50%;
+
+    background: var(--linear-gradient);
+
+    -webkit-mask:
+        linear-gradient(var(--clr-txt-light) 0 0) content-box,
+        linear-gradient(var(--clr-txt-light)0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+
+.video-icon-item::before {
+    content: "";
+
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+
+    border-radius: 50%;
+
+    background: var(--linear-gradient);
+
+    transition: opacity var(--transition);
+}
+
+.video-icon-item:hover::before,
+.video-icon-item:focus::before {
+    opacity: 0;
+}
+
+.video-icon {
+    width: 36px;
+    height: 36px;
+}
+
+/* ---------------- Social icon ---------------- */
+.social-icons-list {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    margin-bottom: 14px;
+}
+
+.social-icon-item {
+    cursor: pointer;
+
+    position: relative;
+    z-index: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+
+    background: transparent;
+}
+
+.social-icon-item::after {
+    content: "";
+
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+
+    padding: 2px;
+    border-radius: 50px;
+
+    background: var(--linear-gradient);
+
+    -webkit-mask:
+        linear-gradient(var(--clr-txt-light) 0 0) content-box,
+        linear-gradient(var(--clr-txt-light)0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+
+.social-icon-item::before {
+    content: "";
+
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+
+    border-radius: 50px;
+
+    background: var(--linear-gradient);
+
+    transition: opacity var(--transition);
+}
+
+.social-icon-item:hover::before,
+.social-icon-item:focus::before {
+    opacity: 0;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
 }
 
 @media screen and (min-width: 768px) {}
 
-@media screen and (min-width: 1200px) {} */
+@media screen and (min-width: 1200px) {}

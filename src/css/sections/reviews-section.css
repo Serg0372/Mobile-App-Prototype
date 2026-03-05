@@ -83,6 +83,9 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .review-description {
+        width: 888px;
+    }
 
     .review-description::before {
         left: 47%;

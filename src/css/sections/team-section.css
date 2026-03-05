@@ -7,7 +7,7 @@
     text-align: center;
 }
 
-.section-title {
+.team-title {
     margin-bottom: 24px;
 }
 
@@ -89,7 +89,7 @@
         padding-bottom: 40px;
     }
 
-    .section-title {
+    .team-title {
         margin-bottom: 40px;
     }
 
@@ -117,7 +117,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .section-title {
+    .team-title {
         margin-bottom: 80px;
     }
 

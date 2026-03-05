@@ -1,43 +1,9 @@
-<!-- <footer class="footer" id="footer">
+<footer class="footer" id="footer">
   <div class="container footer-container">
     <h2 class="section-title footer-title">Contact Us</h2>
-    <div class="footer-text-box">
-      <h3 class="section-subtitle footer-subtitle">Get in touch with us</h3>
-      <p class="footer-description"
-        >Have a question or comment about our app? Get in touch with us using the contact form below
-        and our team will respond shortly.</p
-      ><ul class="social-icons-list">
-        <li class="social-icon">
-          <svg class="social-icon" width="20" height="20">
-            <use href="/icons/sprite.svg#icon-facebook"></use>
-          </svg>
-        </li>
 
-        <li class="social-icon">
-          <svg class="social-icon" width="20" height="20">
-            <use href="/icons/sprite.svg#icon-twitter"></use>
-          </svg>
-        </li>
-        <li class="social-icon">
-          <svg class="social-icon" width="20" height="20">
-            <use href="/icons/sprite.svg#icon-instagram"></use>
-          </svg>
-        </li>
-      </ul>
-      <address class="footer-address">
-        <ul class="address-list">
-          <li class="address-item"
-            ><a href="tel:+xxxxxxxxxxxx" class="address-link">+xx-xxxx-xxxx-xx</a></li
-          >
-          <li class="address-item"
-            ><a href="email:test@gmail" class="address-link">test@gmail.com</a></li
-          >
-        </ul>
-      </address>
-    </div>
-
-    <div class="contacts-form-box">
-      <form action="" class="contact-form">
+    <form class="contact-form">
+      <div class="form-field">
         <input
           class="form-input"
           type="text"
@@ -46,24 +12,61 @@
           pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
           title="Letters only"
           placeholder=" "
-          required /><label class="form-label" for="name"></label>
-        <input
-          class="form-input"
-          type="email"
-          id="email"
-          name="email"
-          placeholder=" "
-          required /><label class="form-label" for="email"></label>
-        <textarea
-          class="form-input"
-          name="message"
-          id="message"
-          placeholder=" "
-          required></textarea>
-        <label class="form-label" for="message"></label>
-        <button type="submit" class="form-button">Submit</button>
-      </form>
+          required />
+        <label class="form-label" for="name">Name</label>
+      </div>
+      <div class="form-field">
+        <input class="form-input" type="email" id="email" name="email" placeholder=" " required />
+        <label class="form-label" for="email">Email</label>
+      </div>
+      <div class="form-field">
+        <textarea class="form-input form-textarea" name="message" id="message" placeholder=" " required></textarea>
+        <label class="form-label form-textarea-label" for="message">Text</label>
+      </div>
+      <button type="submit" class="button form-button">Submit</button>
+    </form>
+
+    <div class="footer-text-box">
+      <h3 class="section-subtitle footer-subtitle">Get in touch with us</h3>
+      <p class="footer-description">
+        Have a question or comment about our app? Get in touch with us using the contact form below and our team will respond shortly.
+      </p>
+      <ul class="social-icons-list">
+        <li class="social-icon-item">
+          <a href="https://www.facebook.com/" target="_blank">
+            <svg class="social-icon" width="20" height="20">
+              <use href="/icons/sprite.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+
+        <li class="social-icon-item">
+          <a href="https://x.com/" target="_blank">
+            <svg class="social-icon" width="20" height="20">
+              <use href="/icons/sprite.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-icon-item">
+          <a href="https://www.instagram.com/" target="_blank">
+            <svg class="social-icon" width="20" height="20">
+              <use href="/icons/sprite.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <address class="footer-address">
+        <ul class="address-list">
+          <li class="address-item"><a href="tel:+xxxxxxxxxxxx" class="address-link">+xx-xxxx-xxxx-xx</a></li>
+          <li class="address-item"><a href="email:test@gmail" class="address-link">test@gmail.com</a></li>
+        </ul>
+      </address>
     </div>
-    <p class="footer-copy"> &copy; 2026 Serhii | Based on GoIteens Template. </p>
+
+    <p class="footer-copy">
+      &copy; 2026 Serhii
+      <br />
+      Based on GoIteens Template.
+    </p>
   </div>
-</footer> -->
+</footer>

@@ -7,6 +7,7 @@
     display: flex;
 
     margin: 0 auto;
+    padding: 12px 60px;
     border: none;
 
     font-size: var(--fs-main);
@@ -57,9 +58,9 @@
 }
 
 /* ------------------- Hero-button ------------------- */
-.hero-button {
-    padding: 12px 62px;
-}
+/* .hero-button {
+    
+} */
 
 @media screen and (min-width: 768px) {
     .hero-button {
