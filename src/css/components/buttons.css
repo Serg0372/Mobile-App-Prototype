@@ -79,9 +79,7 @@
     .form-button {
         margin-right: 0;
     }
-
 }
-
 
 /* ------------------- Кнопка бургер меню ------------------- */
 .burger-menu {
@@ -142,18 +140,12 @@
 }
 
 
-
-
 /* ------------------- Кнопка закриття (Modal / Menu) ------------------- */
 .button-close {
     position: absolute;
     border: none;
     background-color: transparent;
 }
-
-/* .button-close:hover {
-    transform: rotate(90deg);
-} */
 
 .mobile-menu-button-close {
     top: 34px;
@@ -165,27 +157,35 @@
 }
 
 
-
-
 /* ------------------- Кнопка прокрутки -------------------*/
-/* .button-scroll {
+.button.button-scroll {
     position: fixed;
     z-index: 90;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     width: 48px;
     height: 48px;
-    border: 2px solid var();
+    padding: 0;
     border-radius: 50%;
 
-    color: var();
-
-    opacity: 0.6;
+    opacity: 0.2;
     background-color: var();
+
+    transition: opacity var(--transition-slow);
 }
 
-.button-scroll:hover,
-.button-scroll:focus {
-    transform: scale(1.1);
+.button.button-scroll::after,
+.button.button-scroll::before {
+    border-radius: 50px;
+    transition: opacity var(--transition-slow);
+}
+
+
+.button.button-scroll:hover,
+.button.button-scroll:focus {
     opacity: 1;
 }
 
@@ -194,7 +194,15 @@
     bottom: 80px;
 }
 
+.button.button-scroll-up {
+    padding-bottom: 6px;
+}
+
 .button-scroll-down {
     right: 20px;
     bottom: 20px;
-} */
+}
+
+.button.button-scroll-down {
+    padding-top: 6px;
+}

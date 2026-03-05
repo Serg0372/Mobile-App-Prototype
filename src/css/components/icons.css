@@ -25,9 +25,11 @@
 
 
 /* ---------------- Button Scroll icon ---------------- */
-/* .button-scroll-icon {
-    fill: var();
-    transition: fill var(--transition), transform var(--transition);
+.button-scroll-icon {
+    width: 24px;
+    height: 24px;
+    fill: var(--clr-txt-light);
+    transition: fill var(--transition-slow)
 }
 
 .button-scroll-up .button-scroll-icon {
@@ -40,8 +42,8 @@
 
 .button-scroll:hover .button-scroll-icon,
 .button-scroll:focus .button-scroll-icon {
-    fill: var();
-} */
+    fill: var(--clr-txt-details);
+}
 
 
 /* ---------------- Video icons list ---------------- */
