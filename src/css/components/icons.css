@@ -182,6 +182,8 @@
     height: 20px;
 }
 
+
+
 @media screen and (min-width: 768px) {
     .social-icons-list {
         margin-bottom: 40px;
@@ -192,4 +194,20 @@
     .social-icons-list {
         margin-bottom: 0;
     }
+}
+
+/* ---------------- Modal Download icon ---------------- */
+.modal-download-icon {
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+}
+
+.product-icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 28px;
+    height: 28px;
 }

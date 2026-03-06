@@ -140,7 +140,7 @@
 }
 
 
-/* ------------------- Кнопка закриття (Modal / Menu) ------------------- */
+/* ------------------- Кнопка закриття Menu ------------------- */
 .button-close {
     position: absolute;
     border: none;
@@ -156,6 +156,28 @@
     padding: 6px;
 }
 
+/* ------------------- Кнопка закриття Modal  -------------------*/
+.modal-button-close {
+    top: 20px;
+    right: 20px;
+
+    width: 24px;
+    height: 24px;
+    padding: 4px;
+}
+
+.modal-btn-download {
+    margin: 0 auto;
+    padding: 12px 76px;
+}
+
+@media screen and (min-width: 768px) {
+    .modal-button-close {
+        width: 28px;
+        height: 28px;
+    }
+
+}
 
 /* ------------------- Кнопка прокрутки -------------------*/
 .button.button-scroll {
