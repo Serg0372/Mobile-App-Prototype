@@ -124,4 +124,8 @@
     .footer-subtitle {
         margin-bottom: 0;
     }
+
+    .address-list {
+        align-items: start
+    }
 }

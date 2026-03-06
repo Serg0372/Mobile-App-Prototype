@@ -80,7 +80,12 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 20px 32px;
+
+        margin-right: auto;
+        margin-bottom: 40px;
+        margin-left: auto;
     }
+
 
     .form-field-textarea {
         grid-area: row 1 / span 2;
