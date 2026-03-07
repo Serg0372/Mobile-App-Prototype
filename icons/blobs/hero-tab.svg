@@ -8,10 +8,14 @@
   </g>
   <defs>
     <filter id="filter0_f_148_46" x="7" y="29" width="419" height="235" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="51.5" />
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+      <feGaussianBlur stdDeviation="51.5" result="effect1_foregroundBlur_148_46" />
     </filter>
     <filter id="filter1_f_148_46" x="-71" y="0" width="336" height="235" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="51.5" />
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+      <feGaussianBlur stdDeviation="51.5" result="effect1_foregroundBlur_148_46" />
     </filter>
   </defs>
 </svg>
