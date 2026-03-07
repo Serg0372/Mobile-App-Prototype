@@ -1,4 +1,9 @@
 .team-section {
+    isolation: isolate;
+    position: relative;
+
+    overflow: hidden;
+
     padding-top: 40px;
     padding-bottom: 20px;
 }

@@ -1,0 +1,225 @@
+/* ------------------ Base Settings Blobs ------------------ */
+.base-blob {
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.blob-img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+/* ------------------ Mobile-menu Blobs ------------------ */
+
+.mobile-menu::after {
+    content: '';
+
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    /* left: 0; */
+
+    width: 100%;
+    height: 100%;
+
+    /* opacity: 0.9; */
+    background-image: url("./icons/blobses/menu-blobs.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* -------------------- Features-section Blobs ------------------ */
+
+.features-blob-top {
+    top: -150px;
+    left: 0;
+    height: 800px;
+}
+
+.features-blob-bottom {
+    bottom: -150px;
+    left: 0;
+    height: 1000px;
+}
+
+@media screen and (min-width: 768px) {
+    .features-blob-top {
+        top: -50px;
+        left: 300px;
+        width: 650px;
+        height: 400px;
+    }
+
+    .features-blob-bottom {
+        bottom: -200px;
+        left: 0;
+        width: 100%;
+        height: 800px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .features-blob-top {
+        right: 10px;
+        left: auto;
+    }
+}
+
+
+/* -------------------- Video-promo-section Blobs ------------------ */
+
+.video-blob-top {
+    display: none;
+}
+
+.video-blob-bottom {
+    bottom: -40px;
+    left: 0;
+    height: 400px;
+}
+
+@media screen and (min-width: 768px) {
+    .video-blob-top {
+        top: 0;
+        right: 200px;
+        display: block;
+        height: 200px;
+    }
+
+    .video-blob-bottom {
+        bottom: -120px;
+        left: 0;
+        height: 520px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .video-blob-top {
+        top: 0;
+        right: 300px;
+        display: block;
+        height: 417px;
+    }
+
+    .video-blob-bottom {
+        top: -100px;
+        left: 370px;
+        height: 595px;
+    }
+}
+
+/* -------------------- Team-section Blobs ------------------ */
+
+.team-blob-top {
+    top: 0;
+    left: 0;
+    height: 450px;
+}
+
+.team-blob-bottom {
+    bottom: 300px;
+    left: 0;
+    height: 1000px;
+}
+
+@media screen and (min-width: 768px) {
+    .team-blob-top {
+        top: -200px;
+        left: 100px;
+        height: 737px;
+    }
+
+    .team-blob-bottom {
+        right: 0;
+        bottom: 250px;
+        left: auto;
+
+        width: 300px;
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .team-blob-top {
+        top: -100px;
+        right: -400px;
+        left: auto;
+
+        width: 740px;
+        height: 540px;
+    }
+
+    .team-blob-bottom {
+        bottom: 30%;
+        left: 70px;
+        width: 450px;
+        height: 450px;
+    }
+}
+
+/* -------------------- Reviews-section Blobs ------------------ */
+
+
+.rew-blob-top {
+    top: -350px;
+    left: 0;
+    /* height: 450px; */
+}
+
+.rew-blob {
+    display: none;
+}
+
+.rew-blob-bottom {
+    bottom: -250px;
+    left: 0;
+    /* height: 520px; */
+}
+
+@media screen and (min-width: 768px) {
+    .rew-blob-top {
+        top: 0;
+        left: 100px;
+        height: 600px;
+    }
+
+    .rew-blob {
+        top: -200px;
+        left: 0;
+        display: block;
+        /* height: 450px; */
+    }
+
+    .rew-blob-bottom {
+        bottom: 0;
+        left: -150px;
+        height: 650px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .rew-blob-top {
+        /* display: none; */
+        top: -200px;
+        left: 200px;
+        height: 738px;
+    }
+
+    .rew-blob {
+        /* display: none; */
+        top: 0;
+        left: 0;
+        display: block;
+        height: 600px;
+    }
+
+    .rew-blob-bottom {
+        bottom: -100px;
+        left: -350px;
+        height: 600px;
+    }
+}

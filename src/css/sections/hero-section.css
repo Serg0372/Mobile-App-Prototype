@@ -1,6 +1,5 @@
 .hero-section {
     position: relative;
-    /* margin-bottom: 20px; */
     background-color: var(--clr-bg-dark-main);
 }
 
@@ -46,10 +45,12 @@
 .hero-img-box {
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: 20px;
 
-    width: 300px;
-    height: 460px;
+    width: 320px;
+    height: 490px;
+
+    opacity: 0.5;
 }
 
 .hero-img {
@@ -59,9 +60,6 @@
 
 
 @media screen and (min-width: 768px) {
-    /* .hero-section {
-        margin-bottom: 37px;
-    } */
 
     .hero-container {
         padding-top: 142px;
@@ -80,6 +78,8 @@
 
         width: 362px;
         height: 352px;
+
+        opacity: 1;
     }
 
 }

@@ -1,4 +1,9 @@
 .reviews-section {
+    isolation: isolate;
+    position: relative;
+
+    /* overflow: hidden; */
+
     padding-top: 20px;
     padding-bottom: 40px;
 }

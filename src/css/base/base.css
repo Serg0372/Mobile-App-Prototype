@@ -14,7 +14,7 @@ body {
   /* Покращення відображення шрифтів */
   text-rendering: optimizeLegibility;
 
-  background-color: var(--clr-bg-light-main);
+  background-color: var(--clr-txt-light);
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
