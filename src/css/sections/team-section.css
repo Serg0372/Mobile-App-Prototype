@@ -57,7 +57,7 @@
     border-radius: 15px;
 
     background-color: var(--clr-bg-dark-main);
-    -webkit-backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: var(--blur-35);
     backdrop-filter: var(--blur-35);
 }
 

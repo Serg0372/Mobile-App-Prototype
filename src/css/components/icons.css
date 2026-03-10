@@ -29,7 +29,7 @@
     width: 24px;
     height: 24px;
     fill: var(--clr-txt-light);
-    transition: fill var(--transition-slow)
+    transition: fill var(--transition-slow);
 }
 
 .button-scroll-up .button-scroll-icon {
@@ -190,7 +190,7 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
     .social-icons-list {
         margin-bottom: 0;
     }

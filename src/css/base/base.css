@@ -15,15 +15,11 @@ body {
   text-rendering: optimizeLegibility;
 
   background-color: var(--clr-txt-light);
+  /* background-color: var(--clr-bg-light-main); */
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-/* .section {
-  padding-top: 20px;
-  padding-bottom: 20px;
-} */
 
 .container {
   max-width: 480px;
@@ -58,7 +54,6 @@ h3 {
 .logo {
   font-size: var(--fs-logo);
   font-weight: var(--fw-regular);
-  line-height: var(--lh-logo);
   color: var(--clr-txt-light);
 }
 
@@ -90,11 +85,6 @@ li a {
 }
 
 @media (min-width: 768px) {
-  /* .section {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  } */
-
   .container {
     max-width: 768px;
     padding-right: 32px;
@@ -103,12 +93,6 @@ li a {
 }
 
 @media screen and (min-width: 1280px) {
-
-  /* .section {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  } */
-
   .container {
     max-width: 1280px;
     padding-right: 16px;

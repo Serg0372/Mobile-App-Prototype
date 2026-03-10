@@ -63,7 +63,7 @@
     display: none;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .nav {
         display: flex;
     }
@@ -83,7 +83,7 @@
         padding-bottom: 20px;
     }
 
-    .burger {
+    .burger-menu {
         display: none;
     }
 }

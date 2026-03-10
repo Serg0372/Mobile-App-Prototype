@@ -12,7 +12,7 @@
 
     background-color: var(--clr-bg-modal-mob);
 
-    transition: transform var(--transition);
+    transition: transform var(--transition-slow);
 }
 
 .mobile-menu.is-open {
