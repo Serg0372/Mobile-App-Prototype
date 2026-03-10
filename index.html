@@ -13,7 +13,7 @@
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" />
-
+
     <script type="module" crossorigin src="./index.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-BBQNqF5M.css">
   </head>
@@ -315,13 +315,10 @@
     <ul class="review-cards-list">
       <li class="review-card">
         <article>
-          <img
-            class="review-img"
-            src="./assets/jon@1x-B-PDJ86N.webp"
-            alt="foto Jon Doe"
-            width="181"
-            height="181"
-            srcset="./assets/jon@1x-B-PDJ86N.webp 1x, /src/img/testimonials/jon@2x.webp 2x" />
+          <picture>
+            <source srcset="./assets/jon@1x-B-PDJ86N.webp 1x, ./assets/jon@2x-DD-ctrU9.webp 2x" />
+            <img class="review-img" src="./assets/jon@1x-B-PDJ86N.webp" alt="foto Jon Doe" width="181" height="181" />
+          </picture>
           <h3 class="review-name">Jon Doe</h3>
           <p class="company-name">Company Inc.</p>
           <p class="review-description">
@@ -594,6 +591,6 @@
   </svg>
 </a>
 
-
+
   </body>
 </html>
