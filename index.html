@@ -13,9 +13,9 @@
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" />
-
+
     <script type="module" crossorigin src="./index.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-BcTrrFFy.css">
+    <link rel="stylesheet" crossorigin href="./assets/index-BBQNqF5M.css">
   </head>
   <body>
     <header class="header">
@@ -31,16 +31,6 @@
         <li><a class="nav-item" href="#footer" data-text="Contact">Contact</a></li>
       </ul>
     </nav>
-
-    <!-- <button
-      class="burger-menu js-open-menu"
-      type="button"
-      aria-expanded="false"
-      aria-controls="mobile-menu">
-      <svg class="burger-icon" width="24" height="14">
-        <use href="./icons/sprite.svg#icon-burger"></use>
-      </svg>
-    </button> -->
     <button class="burger-menu js-open-menu" type="button" aria-expanded="false" aria-controls="mobile-menu">
       <span class="burger-icon"></span>
     </button>
@@ -208,17 +198,18 @@
         </li>
       </ul>
     </div>
-    <div class="video-promo-box">
+
+    <picture class="video-promo-box">
+      <source srcset="./assets/iPhone-d@1x-4UarsN-i.webp 1x, ./assets/iPhone-d@2x-DdKhR5q4.webp 2x" media="(min-width: 1280px)" />
+      <source srcset="./assets/iPhone-t@1x-D2I7W6_f.webp 1x, ./assets/iPhone-t@2x-CoX1ElV0.webp 2x" media="(min-width: 768px)" />
+      <source srcset="./assets/iPhone-m@1x-BcRKAyr3.webp 1x, ./assets/iPhone-m@2x-RocsQa1g.webp 2x" media="(min-width: 320px)" />
       <img
         class="video-img"
         src="./assets/iPhone-d@1x-4UarsN-i.webp"
         alt="mobile phone in hand with a video playing in the background"
         width="501"
-        height="282"
-        srcset="./assets/iPhone-d@1x-4UarsN-i.webp 1x, ./assets/iPhone-d@2x-DdKhR5q4.webp 2x"
-        srcset="/src/img/video/iPhone-t@1x.webp 1x, /src/img/video/iPhone-t@2x.webp 2x"
-        srcset="/src/img/video/iPhone-m@1x.webp 1x, /src/img/video/iPhone-m@2x.webp 2x" />
-    </div>
+        height="282" />
+    </picture>
   </div>
 </section>
 
@@ -246,60 +237,50 @@
     <ul class="team-cards-list">
       <li class="team-card">
         <article>
-          <img
-            class="team-foto"
-            src="./assets/david-d@1x-CIGMXYK2.webp"
-            alt="foto David Patel"
-            width="264"
-            height="260"
-            srcset="./assets/david-d@1x-CIGMXYK2.webp 1x, ./assets/david-d@2x-qs5f7p8n.webp 2x"
-            srcset="/src/img/team/david-t@1x.webp 1x, /src/img/team/david-t@2x.webp 2x"
-            srcset="/src/img/team/david-m@1x.webp 1x, /src/img/team/david-m@2x.webp 2x" />
+          <picture>
+            <source srcset="./assets/david-d@1x-CIGMXYK2.webp 1x, ./assets/david-d@2x-qs5f7p8n.webp 2x" media="(min-width: 1280px)" />
+            <source srcset="./assets/david-t@1x-mDKOCn48.webp 1x, ./assets/david-t@2x-DVkqLQaJ.webp 2x" media="(min-width: 768px)" />
+            <source srcset="./assets/david-m@1x-DWSvg5VP.webp 1x, ./assets/david-m@2x-soPOfm1q.webp 2x" media="(min-width: 320px)" />
+            <img class="team-foto" src="./assets/david-d@1x-CIGMXYK2.webp" alt="foto David Patel" width="264" height="260" />
+          </picture>
+
           <h3 class="team-name">David Patel</h3>
           <p class="team-profesion">Managing Direcor</p>
         </article>
       </li>
       <li class="team-card">
         <article>
-          <img
-            class="team-foto"
-            src="./assets/rachel-d@1x-CS7ktlNm.webp"
-            alt="foto Rachel Kim"
-            width="264"
-            height="260"
-            srcset="./assets/rachel-d@1x-CS7ktlNm.webp 1x, ./assets/rachel-d@2x-CYeCTOhI.webp 2x"
-            srcset="/src/img/team/rachel-t@1x.webp 1x, /src/img/team/rachel-t@2x.webp 2x"
-            srcset="/src/img/team/rachel-m@1x.webp 1x, /src/img/team/rachel-m@2x.webp 2x" />
+          <picture>
+            <source srcset="./assets/rachel-d@1x-CS7ktlNm.webp 1x, ./assets/rachel-d@2x-CYeCTOhI.webp 2x" media="(min-width: 1280px)" />
+            <source srcset="./assets/rachel-t@1x-CAikedJv.webp 1x, ./assets/rachel-t@2x-BfCJw0VX.webp 2x" media="(min-width: 768px)" />
+            <source srcset="./assets/rachel-m@1x-wj8IFaog.webp 1x, ./assets/rachel-m@2x-6YpW6o97.webp 2x" media="(min-width: 320px)" />
+            <img class="team-foto" src="./assets/rachel-d@1x-CS7ktlNm.webp" alt="foto Rachel Kim" width="264" height="260" />
+          </picture>
+
           <h3 class="team-name">Rachel Kim</h3>
           <p class="team-profesion">Lead Designer</p>
         </article>
       </li>
       <li class="team-card">
         <article>
-          <img
-            class="team-foto"
-            src="./assets/rachel-d@1x-CS7ktlNm.webp"
-            alt="foto Samantha Chen"
-            width="264"
-            height="260"
-            srcset="./assets/samantha-d@1x-DsN3GuBV.webp 1x, ./assets/samantha-d@2x-BFSXkgRP.webp 2x"
-            srcset="/src/img/team/samantha-t@1x.webp 1x, /src/img/team/samantha-t@2x.webp 2x"
-            srcset="/src/img/team/samantha-m@1x.webp 1x, /src/img/team/samantha-m@2x.webp 2x" />
+          <picture>
+            <source srcset="./assets/samantha-d@1x-DsN3GuBV.webp 1x, ./assets/samantha-d@2x-BFSXkgRP.webp 2x" media="(min-width: 1280px)" />
+            <source srcset="./assets/samantha-t@1x-DdfPeA2O.webp 1x, ./assets/samantha-t@2x-DFCrii5f.webp 2x" media="(min-width: 768px)" />
+            <source srcset="./assets/samantha-m@1x-DJVNznfY.webp 1x, ./assets/samantha-m@2x-svumu0SH.webp 2x" media="(min-width: 320px)" />
+            <img class="team-foto" src="./assets/samantha-d@1x-DsN3GuBV.webp" alt="foto Samantha Chen" width="264" height="260" />
+          </picture>
           <h3 class="team-name">Samantha Chen</h3>
           <p class="team-profesion">Lead Developer</p>
         </article>
       </li>
       <li class="team-card">
         <article>
-          <img
-            class="team-foto"
-            src="./assets/andrew-d@1x-BV1KpHSW.webp"
-            alt="foto Andrew Nguyen"
-            width="264"
-            height="260"
-            srcset="./assets/andrew-d@1x-BV1KpHSW.webp 1x, ./assets/andrew-d@2x-BVCBiKCC.webp 2x"
-            srcset="/src/img/team/andrew-t@1x.webp 1x, /src/img/team/andrew-t@2x.webp 2x"
-            srcset="/src/img/team/andrew-m@1x.webp 1x, /src/img/team/andrew-m@2x.webp 2x" />
+          <picture>
+            <source srcset="./assets/andrew-d@1x-BV1KpHSW.webp 1x, ./assets/andrew-d@2x-BVCBiKCC.webp 2x" media="(min-width: 1280px)" />
+            <source srcset="./assets/andrew-t@1x-DOHmkvw5.webp 1x, ./assets/andrew-t@2x-19_dwGWv.webp 2x" media="(min-width: 768px)" />
+            <source srcset="./assets/andrew-m@1x-BD7IQ60Z.webp 1x, ./assets/andrew-m@2x-C5FI8EGw.webp 2x" media="(min-width: 320px)" />
+            <img class="team-foto" src="./assets/andrew-d@1x-BV1KpHSW.webp" alt="foto Andrew Nguyen" width="264" height="260" />
+          </picture>
           <h3 class="team-name">Andrew Nguyen</h3>
           <p class="team-profesion">Sr. UI Designer</p>
         </article>
@@ -340,7 +321,7 @@
             alt="foto Jon Doe"
             width="181"
             height="181"
-            srcset="./assets/jon@1x-B-PDJ86N.webp 1x, /src/img/testimonials/jon@2x.webp 2x" />
+            srcset="./assets/jon@1x-B-PDJ86N.webp 1x, ./assets/jon@2x-DD-ctrU9.webp 2x" />
           <h3 class="review-name">Jon Doe</h3>
           <p class="company-name">Company Inc.</p>
           <p class="review-description">
@@ -350,24 +331,6 @@
           </p>
         </article>
       </li>
-      <!-- <li class="review-card">
-        <article>
-          <img
-            class="review-img"
-            src="/src/img/testimonials/jon@1x.webp"
-            alt="foto Jon Doe"
-            width="181"
-            height="181"
-            srcset="/src/img/testimonials/jon@1x.webp 1x, /src/img/testimonials/jon@2x.webp 2x" />
-          <h3 class="review-name">Jon Doe</h3>
-          <p class="company-name">Company Inc.</p>
-          <p class="review-description"
-            >I've been using this app for a few weeks now and I have to say, I'm really impressed.
-            It's so easy to use and the personalized recommendations are spot-on. Plus, the
-            transactions are secure and the updates are always timely. I would definitely recommend
-            this app to anyone looking for a better mobile experience</p>
-        </article>
-      </li> -->
     </ul>
   </div>
 </section>
@@ -434,7 +397,7 @@
         <address class="footer-address">
           <ul class="address-list">
             <li class="address-item"><a href="tel:+xxxxxxxxxxxx" class="address-link">+xx-xxxx-xxxx-xx</a></li>
-            <li class="address-item"><a href="email:test@gmail" class="address-link">test@gmail.com</a></li>
+            <li class="address-item"><a href="mailto:test@gmail" class="address-link">test@gmail.com</a></li>
           </ul>
         </address>
       </div>
@@ -466,52 +429,22 @@
           </svg>
           <h3 class="section-subtitle modal-download-title">Download free plan</h3>
           <ul class="download-features-plan">
-            <li class="download-feature">
-              <!-- <svg class="download-feature-icon" width="14" height="14">
-                <use href="/icons/sprite.svg#icon-play"></use>
-              </svg> -->
-              Basic functionality
-            </li>
-            <li class="download-feature">
-              <!-- <svg class="download-feature-icon" width="14" height="14">
-                <use href="/icons/sprite.svg#icon-play"></use>
-              </svg> -->
-              Limited access
-            </li>
-            <li class="download-feature">
-              <!-- <svg class="download-feature-icon" width="14" height="14">
-                <use href="/icons/sprite.svg#icon-play"></use>
-              </svg> -->
-              Community support
-            </li>
+            <li class="download-feature">Basic functionality</li>
+            <li class="download-feature">Limited access</li>
+            <li class="download-feature">Community support</li>
           </ul>
         </a>
       </div>
       <div class="modal-download">
-        <a class="download-link" href="/" download="Free-Plan-2026.pdf">
+        <a class="download-link" href="/" download="Premium-Plan-2026.pdf">
           <svg class="modal-download-icon" width="80" height="106">
             <use href="./icons/sprite.svg#icon-file-download"></use>
           </svg>
           <h3 class="section-subtitle modal-download-title">Download for 20$</h3>
           <ul class="download-features-plan">
-            <li class="download-feature">
-              <!-- <svg class="download-feature-icon" width="14" height="14">
-                <use href="/icons/sprite.svg#icon-play"></use>
-              </svg> -->
-              Ad-free experience
-            </li>
-            <li class="download-feature">
-              <!-- <svg class="download-feature-icon" width="14" height="14">
-                <use href="/icons/sprite.svg#icon-play"></use>
-              </svg> -->
-              Unlock exclusive features
-            </li>
-            <li class="download-feature">
-              <!-- <svg class="download-feature-icon" width="14" height="14">
-                <use href="/icons/sprite.svg#icon-play"></use>
-              </svg> -->
-              Content for the ultimate mobile experience
-            </li>
+            <li class="download-feature">Ad-free experience</li>
+            <li class="download-feature">Unlock exclusive features</li>
+            <li class="download-feature">Content for the ultimate mobile experience</li>
           </ul>
         </a>
       </div>
@@ -661,6 +594,6 @@
   </svg>
 </a>
 
-
+
   </body>
 </html>
