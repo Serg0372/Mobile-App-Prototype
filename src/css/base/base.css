@@ -1,7 +1,5 @@
 /* Styles for Mobile devices */
 body {
-  overflow-x: hidden;
-
   min-width: 320px;
   min-height: 100vh;
 
@@ -19,9 +17,18 @@ body {
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* overflow-x: hidden; */
+
+  .features-section,
+  .video-promo-section,
+  .team-section,
+  .reviews-section {
+    overflow: clip;
+  }
 }
 
 .container {
+  width: 100%;
   max-width: 480px;
   margin: 0 auto;
   padding-right: 20px;
